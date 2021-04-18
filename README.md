@@ -1,4 +1,4 @@
-#Ansible Succinclty E-Book
+# Ansible Succinctly E-Book
 
 This reposiory contains the code used in the book Ansible Succinctly by Syncfusion.
 
