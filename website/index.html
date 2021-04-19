@@ -3,28 +3,22 @@
 
 <head>
     <title>Hello from Ansible</title>
-    <script language="JavaScript" type="text/javascript">
-        function displayURL() {
-            var sub = document.getElementById("subtitle");
-            sub.innerHTML = window.location.href;
-        }
-    </script>
     <style>
         body {
             font-family: Arial;
         }
-        
+
         #subtitle {
             background-color: lightblue;
         }
     </style>
 </head>
 
-<body onload="displayURL()">
+<body>
     <img src="syncfusion-logo2021.png" width="50px" />
     <h1>Ansible Succinctly</h1>
     <h3>
-        You are navigating: <span id="subtitle" />
+        You are navigating: <span id="subtitle"><?php echo $_SERVER['SERVER_ADDR']; ?></span>
     </h3>
 </body>
 
