@@ -19,6 +19,8 @@
     <h1>Ansible Succinctly</h1>
     <h3>
         You are navigating: <span id="subtitle"><?php echo $_SERVER['SERVER_ADDR']; ?></span>
+        <br/>
+        Server time: <span id="subtitle"><?php echo date("Y-m-d h:i:sa"); ?></span>
     </h3>
 </body>
 
